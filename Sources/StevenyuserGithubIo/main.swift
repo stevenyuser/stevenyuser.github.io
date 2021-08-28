@@ -7,6 +7,7 @@ struct StevenyuserGithubIo: Website {
     enum SectionID: String, WebsiteSectionID {
         // Add the sections that you want your website to contain here:
         case posts
+        case projects
         case about
     }
 
@@ -16,14 +17,14 @@ struct StevenyuserGithubIo: Website {
 
     // Update these properties to configure your website:
     var url = URL(string: "https://stevenyuser.github.io")!
-    var name = "stevenyuser"
-    var description = "Steven's personal site"
+    var name = "Steven Yu"
+    var description = "Steven Yu's Personal Website ｜ 俞越的网站"
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { Path("images") }
 }
 
 // This will generate your website using the built-in Foundation theme:
 try StevenyuserGithubIo().publish(
-    withTheme: .foundation,
+    withTheme: .myTheme,
     deployedUsing: .gitHub("stevenyuser/stevenyuser.github.io", useSSH: false)
 )
