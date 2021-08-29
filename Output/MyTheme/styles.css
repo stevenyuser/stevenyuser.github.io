@@ -250,8 +250,7 @@ footer p {
         background-color: #222;
     }
     
-    body,
-    header .site-name {
+    body {
         color: #ddd;
     }
     
