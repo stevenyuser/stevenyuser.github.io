@@ -16,7 +16,7 @@ struct StevenyuserGithubIo: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://stevenyuser.github.io")!
+    var url = URL(string: "https://stevenyuser.com")!
     var name = "Steven Yu"
     var description = "Steven Yu's Personal Website ｜ 俞越的网站"
     var language: Language { .english }
