@@ -1,9 +1,11 @@
 ---
 date: 2021-09-26 16:35
 description: Learn how to host your Swift Publish site on GitHub Pages for free!
-tags: Publish, Tutorial
+tags: Publish, Tutorial, Swift
 title: How to Host Your Swift Publish Site with GitHub Pages
 ---
+# How to Host Your Swift Publish Site with GitHub Pages
+
 ## Introduction
 Hi everyone! I finished building this personal site about a month ago and it took me a lot of struggles to make it, but it's finally done! In these few blog posts I'm making, I hope to help other Swift developers get their Swift Publish site up and running as painless as possible.
 After I made my site, a part I struggled on was hosting the site on GitHub Pages. Now, why would you want to host on GitHub Pages? Well, it comes with your GitHub account, it's free hosting, connected to your repository, and (after this tutorial) easy to use! 
